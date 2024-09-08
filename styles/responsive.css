@@ -1,0 +1,111 @@
+
+@media  screen and (max-width: 1400px){
+    .about__img{
+        max-width: 60rem;
+        max-height: 40rem;
+    }
+}
+@media  screen and (max-width: 1200px){
+    .btn{
+        border-top-right-radius: 1rem ;
+        border-bottom-right-radius: 1rem ;
+    }
+    .nav{
+        padding-left: 1rem;
+        border-radius: .99rem;
+    }
+    .header__img{
+        display: none;
+    }
+    .nav{
+        box-shadow: 0 0 1rem #0C0F32;
+    }
+    .menu__link{
+        color: #0C0F32;
+    }
+    .home{
+        margin-top: 8rem;
+    }
+    .workflow-content{
+        flex-basis: 23rem;
+    }
+    .workflow__left{
+        width: 50rem;
+        margin: 0 auto;
+    }
+}
+@media  screen and (max-width: 992px){
+    .justify-content--center{
+        justify-content: center;
+    }
+}
+@media  screen and (max-width: 768px){
+    .btn{
+        border-radius: 2rem;
+        background-color: transparent;
+    }
+    .menu{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        left: 0;
+        align-items: center;
+        right: 0;
+        top: 6rem;
+        width: 100%;
+        border-radius: 2rem;
+        background-color: #3D37F1;
+        transition: all 200ms ease-in;
+        height: 0;
+        overflow: hidden;
+        z-index: 100;
+    }
+    .menu--open{
+        height: 36.8rem;
+        transition: all 200ms ease-in;
+    }
+    .menu__item{
+        margin-bottom: 1rem;
+    }
+    .menu__link{
+        color: #fff;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
+    .home{
+        margin-top: 5rem;
+    }
+    .column-reverse{
+        flex-direction: column-reverse;
+    }
+    .comment-bottom{
+        gap: 2rem;
+        justify-content: flex-start;
+    }
+    .workflow__left{
+        width: auto;
+    }
+    .footer__cover {
+        gap: 2rem;
+    }
+}
+@media  screen and (max-width: 576px){
+    .footer__cover {
+        gap: 1rem;
+    }
+}
+@media  screen and (max-width: 420px){
+    .footer__cover {
+        gap: 0;
+    }
+}
+@media  screen and (max-width: 350px){
+    .home__title{
+        font-size: 3rem;
+        max-width: 23rem;
+    }
+    .header-title{
+        font-size: 1.8rem;
+    }
+}

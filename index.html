@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web UiExpert</title>
     <link rel="icon" type="image/png"  href="./images/ui-ux.icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/grid.css">
     <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="styles/swiper-bundle.min.css">
 />
 </head>
 <body>
     <div class="header__shape">
-        <img  class="header__img" src="images/shape-header-min.jpeg" alt="shape">
+        <img  class="header__img" src="images/shape-header.jpeg" alt="shape">
     </div>
     <header class="header">
         <div class="container">
@@ -52,7 +57,7 @@
         <section class="home">
             <div class="container">
                 <div class="row column-reverse">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" data-aos="fade-right">
                         <h1 class="home__title">Provide You best Best Ui Service</h1>
                         <p class="home__caption">Mobile App Design and Development Studio. You can hire us</p>
                         <a href="#" class="btn-wave">
@@ -102,8 +107,8 @@
                             <span class="btn-wave__text">Wave Me</span>
                         </a>
                     </div>
-                    <div class="col-12 col-md-6">
-                       <img class="home__img" src="images/designer-img-min.jpg" alt="Desinger">
+                    <div class="col-12 col-md-6" data-aos="fade-left">
+                       <img class="home__img" src="images/designer-img.jpg" alt="Desinger">
                     </div>
                 </div>
             </div>
@@ -116,7 +121,7 @@
                 <p class="services__caption">Our commitment to quality ensures that your applications get the best UI design possible. UI/UX design is more than just pixels and animations, but the entire application experience.</p>
                </div>
                <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
                     <div class="service service--first">
                         <svg class="service__img" id="_001-data" data-name="001-data"  width="100" height="99.892" viewBox="0 0 100 99.892">
                             <path id="Path_1565" data-name="Path 1565" d="M38.957,140.5a1.658,1.658,0,1,0,2.345-2.345l-4.026-4.026L41.3,130.1a1.658,1.658,0,0,0-2.345-2.345l-5.2,5.2a1.658,1.658,0,0,0,0,2.345Zm0,0" transform="translate(-25.912 -102.964)" fill="#fff"/>
@@ -155,7 +160,7 @@
                         <a class="service__link" href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
                     <div class="service service--second">
                         <svg class="service__img" id="_003-paint" data-name="003-paint" xmlns="http://www.w3.org/2000/svg" width="100" height="108.117" viewBox="0 0 100 108.117">
                             <path id="Path_1597" data-name="Path 1597" d="M405.254,23.8H392.339a1.659,1.659,0,0,0,0,3.319h12.915a.554.554,0,0,1,.553.553V92.686a1.659,1.659,0,1,0,3.319,0V27.673a3.875,3.875,0,0,0-3.872-3.872Zm0,0" transform="translate(-309.127 -18.535)" fill="#fff"/>
@@ -170,7 +175,7 @@
                         <a class="service__link" href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
                     <div class="service service--third">
                         <svg class="service__img" id="_002-phone" data-name="002-phone" xmlns="http://www.w3.org/2000/svg" width="100" height="115.341" viewBox="0 0 100 115.341">
                             <path id="Path_1595" data-name="Path 1595" d="M100,78.359a22.117,22.117,0,0,0-.766-5.745,1.719,1.719,0,1,0-3.32.9,18.767,18.767,0,0,1,.647,4.854A18.109,18.109,0,0,1,85.967,94.907a1.72,1.72,0,0,0,1.427,3.13,21.525,21.525,0,0,0,4.652-2.892,33.526,33.526,0,0,1-51.756,7.878h16.7a8.382,8.382,0,0,0,8.372-8.372v-.5a8.471,8.471,0,0,0-1.644-4.982c-4.883-6.757-4.46-16.846.964-22.97a18.668,18.668,0,0,1,2.884-2.636,1.719,1.719,0,0,0,.2-2.6L54.968,48.171a6.758,6.758,0,0,1,9.556-9.558l9.242,9.242.008.008L91.088,65.176a18.749,18.749,0,0,1,2.179,2.619,1.72,1.72,0,1,0,2.834-1.95,22.146,22.146,0,0,0-2.581-3.1L76.705,45.93V8.249A8.258,8.258,0,0,0,68.458,0H29.6a1.72,1.72,0,1,0,0,3.44H68.458a4.814,4.814,0,0,1,4.807,4.81v1.77H11.528V8.249a4.815,4.815,0,0,1,4.81-4.81h6.383a1.72,1.72,0,0,0,0-3.44H16.338a8.259,8.259,0,0,0-8.249,8.25V33.891A9.806,9.806,0,0,0,4.266,51.638,9.807,9.807,0,0,0,8.089,69.386V94.777a8.257,8.257,0,0,0,8.249,8.247H35.467c.46.515.93,1.013,1.4,1.486A36.977,36.977,0,0,0,99.99,79c.005-.212.009-.425.008-.638Zm-26.733-64.9V42.491l-6.309-6.31A10.2,10.2,0,0,0,52.535,50.6L63.979,62.047a21.125,21.125,0,0,0-6.894,19.118H11.528V13.459ZM3.439,43.548a6.381,6.381,0,0,1,4.651-6.133V49.68a6.38,6.38,0,0,1-4.651-6.133Zm0,16.181A6.381,6.381,0,0,1,8.089,53.6V65.861a6.381,6.381,0,0,1-4.651-6.133Zm8.09,35.048V84.6H57.774a20.965,20.965,0,0,0,3.156,6.583,5.055,5.055,0,0,1,.992,2.966v.5a4.937,4.937,0,0,1-4.932,4.932H16.338a4.814,4.814,0,0,1-4.81-4.807Zm0,0" transform="translate(0.001 0)" fill="#fff"/>
@@ -181,7 +186,7 @@
                         <a class="service__link" href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
                     <div class="service service--fourth">
                         <svg class="service__img" id="_004-app" data-name="004-app" xmlns="http://www.w3.org/2000/svg" width="100" height="105.978" viewBox="0 0 100 105.978">
                             <path id="Path_1603" data-name="Path 1603" d="M65.392,272.782H16.663A13.349,13.349,0,0,1,3.318,259.459V210.741a1.659,1.659,0,0,0-3.319,0v48.717A16.671,16.671,0,0,0,16.663,276.1H65.392a1.659,1.659,0,1,0,0-3.319Zm0,0" transform="translate(0 -170.123)" fill="#fff"/>
@@ -196,7 +201,7 @@
                         <a class="service__link" href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
                     <div class="service service--fifth">
                         <svg class="service__img" id="_006-domain-registration" data-name="006-domain-registration" xmlns="http://www.w3.org/2000/svg" width="100" height="90.426" viewBox="0 0 100 90.426">
                             <path id="Path_1613" data-name="Path 1613" d="M98.4,22.5H1.6A1.6,1.6,0,0,0,0,24.1V111.33a1.6,1.6,0,0,0,1.6,1.6H98.4a1.6,1.6,0,0,0,1.6-1.6V94.309a1.6,1.6,0,0,0-3.191,0v15.426H3.191V38.457H96.809V87.926a1.6,1.6,0,0,0,3.191,0V24.1A1.6,1.6,0,0,0,98.4,22.5ZM3.191,25.691H62.234v9.574H3.191Zm62.234,9.574V25.691H96.809v9.574Z" transform="translate(0 -22.5)" fill="#fff"/>
@@ -218,7 +223,7 @@
                         <a class="service__link" href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
                     <div class="service service--sixth">
                         <svg class="service__img" id="_005-repair" data-name="005-repair" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
                             <path id="Path_1609" data-name="Path 1609" d="M46.653,31.3a5.251,5.251,0,1,0,5.25,5.25A5.257,5.257,0,0,0,46.653,31.3Zm0,7.15a1.9,1.9,0,1,1,1.9-1.9A1.9,1.9,0,0,1,46.653,38.454Zm0,0" transform="translate(-32.242 -24.379)" fill="#fff"/>
@@ -237,12 +242,12 @@
         <section class="about">
             <div class="container">
                 <div class="row center">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6" data-aos="fade-up">
                       <div class="about__wrapper-1">
-                        <img src="images/success-img-min.jpg" alt="success" class="about__img">
+                        <img src="images/success-img.jpg" alt="success" class="about__img">
                       </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6" data-aos="fade-up">
                       <div class="about__wrapper-2">
                         <h4 class="about__title">Know About UiExpert</h4>
                         <p class="about__text">I always follow professional Workflow and provide you best service with resealable costs.</p>
@@ -265,15 +270,15 @@
                 <h2 class="success__title">Our Success</h2>
                 <p class="success__caption">View our portfolio in catagoris</p>
                 <div class="success__wrapper">
-                    <div class="success-box">
+                    <div class="success-box" data-aos="fade-down-right">
                         <div class="success-box__number success-box__number--blue">137</div>
                         <span class="success-box__text">PROJECT DONE</span>
                     </div>
-                    <div class="success-box">
+                    <div class="success-box" data-aos="fade-up">
                         <div class="success-box__number success-box__number--pink">47</div>
                         <span class="success-box__text">HAPPY CLIENT</span>
                     </div>
-                    <div class="success-box">
+                    <div class="success-box" data-aos="fade-down-left">
                         <div class="success-box__number success-box__number--orange">34</div>
                         <span class="success-box__text">RETURN CLIENT</span>
                     </div>
@@ -286,7 +291,7 @@
                 <h2 class="comment-top__title">What they say about us!</h2>
                 <p class="comment-top__caption">Customer Review Sites for Collecting Business & Product Reviews</p>
                 <div class="comment-img">
-                    <img class="comment-img__pic" src="images/black-man-min.jpg" alt="black-man">
+                    <img class="comment-img__pic" src="images/black-man.jpg" alt="black-man">
                     <div class="comment-img__circle">9.8</div>
                 </div>
                 <span class="comment-top__text">Loved the design specially the color combination. Look forward to work more in future.</span>
@@ -414,7 +419,7 @@
                 <div class="row">
                     <div class="col-12 col-xl-6">
                         <div class="workflow__left">
-                            <img class="workflow__img" src="images/social-network-img-min.jpg" alt="social-network">
+                            <img class="workflow__img" src="images/social-network-img.jpg" alt="social-network">
                         </div>
                     </div>
                     <div class="col-12 col-xl-6">
@@ -503,7 +508,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="blog-content">
                             <div class="blog-content__cover-img">
-                                <img class="blog-content__img" src="images/blog-1-min.jpeg" alt="blog-1">
+                                <img class="blog-content__img" src="images/blog-1.jpeg" alt="blog-1">
                             </div>
                             <h4 class="blog-content__title">Cutting-edge products launched through Logitech-Excel</h4>
                             <p class="blog-content__caption">The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta.</p>
@@ -519,7 +524,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="blog-content">
                              <div class="blog-content__cover-img">
-                                <img class="blog-content__img" src="images/blog-2-min.jpeg" alt="blog-1">
+                                <img class="blog-content__img" src="images/blog-2.jpeg" alt="blog-1">
                              </div>     
                             <h4 class="blog-content__title">Cutting-edge products launched through Logitech-Excel</h4>
                             <p class="blog-content__caption">The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta.</p>
@@ -535,7 +540,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="blog-content">
                              <div class="blog-content__cover-img">
-                                <img class="blog-content__img" src="images/blog-3-min.jpeg" alt="blog-1">
+                                <img class="blog-content__img" src="images/blog-3.jpeg" alt="blog-1">
                              </div> 
                             <h4 class="blog-content__title">Cutting-edge products launched through Logitech-Excel</h4>
                             <p class="blog-content__caption">The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta.</p>
@@ -558,16 +563,16 @@
                         <img class="symbol-cover__img" src="images/tp-link.jpg" alt="tp-link">
                     </div>
                     <div class="symbol-cover">
-                        <img class="symbol-cover__img" src="images/digital-x-logo-min.jpg" alt="digital-x-logo">
+                        <img class="symbol-cover__img" src="images/digital-x-logo.jpg" alt="digital-x-logo">
                     </div>
                     <div class="symbol-cover">
-                        <img class="symbol-cover__img" src="images/excel-brand-logo-min.jpg" alt="excel-brand-logo">
+                        <img class="symbol-cover__img" src="images/excel-brand-logo.jpg" alt="excel-brand-logo">
                     </div>
                     <div class="symbol-cover">
-                        <img class="symbol-cover__img" src="images/Logitech-logo-300x300-min.jpg" alt="Logitech">
+                        <img class="symbol-cover__img" src="images/Logitech-logo-300x300.jpg" alt="Logitech">
                     </div>
                     <div class="symbol-cover">
-                        <img class="symbol-cover__img" src="images/hikvison-min.jpg" alt="hikvison">
+                        <img class="symbol-cover__img" src="images/hikvison.jpg" alt="hikvison">
                     </div>
                 </div>
             </div>
@@ -667,8 +672,7 @@
         </div>
     </footer>
 
-
-
+    <script src="scripts/core.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/swiper-bundle.min.js"></script>
     <script type="text/javascript">
@@ -676,8 +680,11 @@
             pagination: {
              el: '.swiper-pagination',
             },
-
         })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>
